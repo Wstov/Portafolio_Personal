@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/js/bootstrap.js">
-    <title>Document</title>
+    <title>Gustavo Marín Developer</title>
 </head>
 
 <body>
@@ -16,92 +16,80 @@
     <script defer="defer" src="https://unpkg.com/swiper@8/swiper-bundle.min.js"
         onload="initializeSwiperRANDOMID();"></script>
 
-    <header>
-        <nav class="navbar navbar-light shadow p-3 mb-5 bg-body-tertiary rounded nav-bar">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg py-3 navbar-light shadow p-3 mb-5 bg-body-tertiary rounded">
             <div class="container">
-                <p editable="inline" class="navbar-brand nav-tittle">
-                    Gustavo Marín Web Developer
-                </p>
+                <p class="navbar-brand nav-tittle">
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    Gustavo Marín Web Developer</p>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavbar3"
+                    aria-controls="myNavbar3" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <!-- START OFFCANVAS -->
-                <!-- To customize and view the offcanvas, utilize the "show" class, but make sure to remove it once you are finished. -->
-                <div class="offcanvas offcanvas-end p-2 bg-light" tabindex="-1" id="offcanvasNavbar"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <div class="lc-block">
-                            <div editable="rich">
-                                <h5 class="offcanvas-title nav-tittle" id="offcanvasNavbarLabel">Menu</h5>
-                            </div>
-                        </div>
 
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <div class="lc-block collapse navbar-collapse" id="myNavbar3">
+                    <div lc-helper="shortcode" class="live-shortcode ms-auto"> <!--  lc_nav_menu -->
+                        <ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav">
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739">
+                                <a href="#inicio" class="nav-link ">Inicio</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739">
+                                <a href="#proyectos" class="nav-link ">Proyectos</a>
+                            </li>
+                            <li
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
+                                <a href="#habilidades" class="nav-link ">Habilidades</a>
+                            </li>
+                            <li
+                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
+                                <a href="#contacto" class="nav-link ">Contacto</a>
+                            </li>
+                        </ul> <!-- /lc_nav_menu -->
                     </div>
-                    <div class="offcanvas-body">
-                        <div class="row">
-                            <div class="col">
-                                <div class="lc-block mb-4">
 
-                                    <div lc-helper="shortcode" class="live-shortcode me-auto"> <!--  lc_nav_menu -->
-                                        <ul id="menu-menu-1" class="navbar-nav me-auto mb-2 mb-md-0 navbar-nav">
-                                            <li
-                                                class="menu-item menu-item-type-custom menu-item-object-custom nav-item nav-item-32739">
-                                                <a href="#" class="nav-link nav-tittle">Proyectos</a>
-                                            </li>
-                                            <li
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
-                                                <a href="#" class="nav-link nav-tittle">Habilidades</a>
-                                            </li>
-                                            <li
-                                                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home nav-item nav-item-32738">
-                                                <a href="#" class="nav-link nav-tittle ">Contacto</a>
-                                            </li>
-
-                                        </ul> <!-- /lc_nav_menu -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <!-- END OFFCANVAS -->
             </div>
         </nav>
     </header>
     <!-- INICIO DEL MAIN -->
-    <main>
+    <main class="main">
         <!-- SECCION 1 -->
-        <section>
-            <div class="container text-center py-4 py-md-6">
-                <div class="lc-block card border-0 bg-dark text-center rounded p-4 p-lg-6"
-                    style="background:url(https://cdn.livecanvas.com/media/backgrounds/fffuelco/ssscribble.svg)  center / cover no-repeat;">
-                    <div class="row card-body mb-3 mb-lg-4">
-                        <div class="col-xl-11 col-xxl-9 mx-auto text-white">
+        <section class="section-space" id="inicio">
+            <div class="container">
+                <div class="row py-4 py-lg-6">
+                    <div
+                        class="col-lg-4 order-lg-2 d-flex align-items-center justify-content-center justify-content-lg-start ms-lg-n6">
+                        <div style="z-index:1" class="lc-block col-6 col-lg-10 mb-n3 mb-lg-0">
+                            <img class="img-fluid shadow" src="./img/perfil.jpg" alt="Photo by Kaloyan Draganov">
+                        </div><!-- /lc-block -->
+                    </div><!-- /col -->
+                    <div class="col-lg-7 bg-light px-lg-5 p-4">
+                        <div class="col-lg-10 ms-lg-5">
                             <div class="lc-block mb-4">
                                 <div editable="rich">
-                                    <p class="">JOIN OUR COMMUNITY</p>
+                                    <h1 class="rfs-30">FullStack Web Developer</h1>
                                 </div>
                             </div>
+                            <div class="lc-block mb-5">
+                                <div editable="rich">
+                                    <p class="lead">Actualmente soy estudiante de la carrera en Sistemas de Computación,
+                                        megusta mucho el desarrollo web tanto Frontend como Backend. Siempre estoy
+                                        tratando de mejorar porque el camino es largo y queda mucho por recorrer.</p>
+                                </div>
+                            </div><!-- /lc-block -->
                             <div class="lc-block">
-                                <h3 editable="inline" class="fw-bold display-6">We are <span
-                                        class="lc-block position-relative">trusted <img
-                                            class="position-absolute top-100 start-0 mt-n1"
-                                            src="https://cdn.livecanvas.com/media/underline/white_underline5.svg"></span>
-                                    by
-                                    over 5000+ clients. Join them now and grow your business.</h3>
-                            </div>
+                                <a class="btn btn-primary btn-lg" href="#" role="button">Contactame</a>
+                            </div><!-- /lc-block -->
                         </div>
-                    </div>
-                    <div class="lc-block"><a class="btn btn-primary btn-lg" href="#" role="button">Get Started</a></div>
+                    </div><!-- /col -->
+
                 </div>
             </div>
         </section>
         <!-- SECCION 2 -->
-        <section>
+        <section id="proyectos" class="section-space">
 
             <div class="container py-6"><!-- Slider main container -->
                 <div class="swiper mySwiper-RANDOMID">
@@ -111,23 +99,21 @@
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1660861378355-d194175e4905?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8Mnx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0MzUxOTV8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="" sizes="" width="" height="" alt="Photo by Marla Gottschalk"
-                                            loading="lazy">
+                                        <img class="img-fluid" src="./img/pagos.jpg" srcset="" sizes="" width=""
+                                            height="" alt="Photo by Marla Gottschalk" loading="lazy">
                                     </div>
                                     <div class="card-body">
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Flujo de Gastos</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Es una pagina creada con react para la practica de npm, prop, states
+                                                    y js</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
                                     </div>
@@ -138,9 +124,7 @@
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1617886903355-9354bb57b5d4?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1617886903355-9354bb57b5d4?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1617886903355-9354bb57b5d4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1617886903355-9354bb57b5d4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1617886903355-9354bb57b5d4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1617886903355-9354bb57b5d4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8NHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
+                                        <img class="img-fluid" src="./img/carrito.jpg"
                                             sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
                                             alt="Photo by Jon Tyson" loading="lazy">
                                     </div>
@@ -148,14 +132,14 @@
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Carrito de Compras</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Es un sitio creado para la porctica de JavaScrip, simulando la
+                                                    funcionabilidad de un carrito de compras.</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
 
@@ -167,9 +151,7 @@
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OHx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
+                                        <img class="img-fluid" src="./img/panaderia.jpg"
                                             sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
                                             alt="Photo by Vianney CAHEN" loading="lazy">
                                     </div>
@@ -177,14 +159,14 @@
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Panaderia</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Sitio que representa los intereces de una panaderia, creado para la
+                                                    practica de html y css</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
 
@@ -196,9 +178,7 @@
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1597489276008-79951d6be8bb?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1597489276008-79951d6be8bb?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1597489276008-79951d6be8bb??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1597489276008-79951d6be8bb??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1597489276008-79951d6be8bb??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1597489276008-79951d6be8bb??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8N3x8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
+                                        <img class="img-fluid" src="./img/veterinaria.jpg"
                                             sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
                                             alt="Photo by Cherry Lin" loading="lazy">
                                     </div>
@@ -206,14 +186,13 @@
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Manejo de citas de una veterinaria</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Es un CRUD creado con react para la practica de props y states</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
 
@@ -221,42 +200,12 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="swiper-slide h-100">
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1594398901592-4f07a2e0b5f1??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8OXx8ZnVybml0dXJlJTIwcmVkfGVufDB8Mnx8fDE2OTE0ODcxMjF8MA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
-                                            sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
-                                            alt="Photo by Grant Durr" loading="lazy">
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="lc-block mb-3">
-                                            <div editable="rich">
-
-                                                <h2 class="h5">Card Title</h2>
-
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
-                                            </div>
-                                        </div>
-                                        <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide h-100">
-                            <div class="card shadow mx-auto">
-                                <div class="card-body">
-                                    <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1604309225246-86ad9ff7d79f??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTB8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDg3MTIxfDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
+                                        <img class="img-fluid" src="./img/personal.jpg"
                                             sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
                                             alt="Photo by willy wo" loading="lazy">
                                     </div>
@@ -264,14 +213,14 @@
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Sitio Web Personal</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Es un sitio web como portafio personal creado para la parctica de
+                                                    html y css</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
 
@@ -283,9 +232,7 @@
                             <div class="card shadow mx-auto">
                                 <div class="card-body">
                                     <div class="lc-block">
-                                        <img class="img-fluid"
-                                            src="https://images.unsplash.com/photo-1587117238257-8cacadca6ae4?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080"
-                                            srcset="https://images.unsplash.com/photo-1587117238257-8cacadca6ae4?crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1080&amp;h=1080 1080w, https://images.unsplash.com/photo-1587117238257-8cacadca6ae4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=150 150w, https://images.unsplash.com/photo-1587117238257-8cacadca6ae4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=300 300w, https://images.unsplash.com/photo-1587117238257-8cacadca6ae4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=768 768w, https://images.unsplash.com/photo-1587117238257-8cacadca6ae4??crop=entropy&amp;cs=tinysrgb&amp;fit=crop&amp;fm=jpg&amp;ixid=M3wzNzg0fDB8MXxzZWFyY2h8MTd8fGZ1cm5pdHVyZSUyMHJlZHxlbnwwfDJ8fHwxNjkxNDM1MjA3fDA&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=1024 1024w"
+                                        <img class="img-fluid" src="./img/frontendStore.jpg"
                                             sizes="(max-width: 1080px) 100vw, 1080px" width="1080" height="1080"
                                             alt="Photo by Dayana Brooke" loading="lazy">
                                     </div>
@@ -293,14 +240,15 @@
                                         <div class="lc-block mb-3">
                                             <div editable="rich">
 
-                                                <h2 class="h5">Card Title</h2>
+                                                <h2 class="h5">Frontend Store</h2>
 
-                                                <p>Some quick example text to build on the card title and make up the
-                                                    bulk of the card's content..</p>
+                                                <p>Es un sitio web que representa la venta de camisetas con logos de
+                                                    tecnologias frontend,creado para la parctica de html y css, grid y
+                                                    flex</p>
                                             </div>
                                         </div>
                                         <div class="lc-block">
-                                            <a class="btn btn-primary" href="#" role="button">Button</a>
+                                            <a class="btn btn-primary" href="#" role="button">Ir al Sitio</a>
                                         </div>
 
 
@@ -316,198 +264,74 @@
 
         </section>
         <!-- SECCION 3 -->
-        <section>
+        <section class="section-space" id="habilidades">
             <div class="container py-5 timeline position-relative">
-                <style>
-                    .timeline:before {
-                        content: "";
-                        background: var(--bs-secondary);
-                        width: 5px;
-                        height: 95%;
-                        position: absolute;
-                        left: 50%;
-                        transform: translateX(-50%);
-                    }
 
-                    .timeline-item:nth-child(even) .timeline-content {
-                        float: right;
-                        padding: 40px 30px 10px 30px;
-                    }
-
-                    .timeline-item:nth-child(even) .timeline-content .date {
-                        right: auto;
-                        left: 0;
-                    }
-
-                    .timeline-item:nth-child(even) .timeline-content::after {
-                        content: "";
-                        position: absolute;
-                        border-style: solid;
-                        width: 0;
-                        height: 0;
-                        top: 30px;
-                        left: -15px;
-                        border-width: 10px 15px 10px 0;
-                        border-color: transparent var(--bs-light) transparent transparent;
-                    }
-
-                    .timeline-item::after {
-                        content: "";
-                        display: block;
-                        clear: both;
-                    }
-
-                    .timeline-content {
-                        position: relative;
-                        width: 45%;
-                        padding: 10px 30px;
-                        border-radius: 4px;
-                        background: var(--bs-light);
-                    }
-
-                    .timeline-content::after {
-                        content: "";
-                        position: absolute;
-                        border-style: solid;
-                        width: 0;
-                        height: 0;
-                        top: 30px;
-                        right: -15px;
-                        border-width: 10px 0 10px 15px;
-                        border-color: transparent transparent transparent var(--bs-light);
-                    }
-
-                    .timeline-img {
-                        width: 30px;
-                        height: 30px;
-                        background: var(--bs-secondary);
-                        border-radius: 50%;
-                        position: absolute;
-                        left: 50%;
-                        margin-top: 25px;
-                        margin-left: -15px;
-                    }
-
-                    @media screen and (max-width: 768px) {
-                        .timeline::before {
-                            left: 50px;
-                        }
-
-                        .timeline .timeline-img {
-                            left: 50px;
-                        }
-
-                        .timeline .timeline-content {
-                            max-width: 100%;
-                            width: auto;
-                            margin-left: 70px;
-                        }
-
-                        .timeline .timeline-item:nth-child(even) .timeline-content {
-                            float: none;
-                        }
-
-                        .timeline .timeline-item:nth-child(odd) .timeline-content::after {
-                            content: "";
-                            position: absolute;
-                            border-style: solid;
-                            width: 0;
-                            height: 0;
-                            top: 30px;
-                            left: -15px;
-                            border-width: 10px 15px 10px 0;
-                            border-color: transparent #f5f5f5 transparent transparent;
-                        }
-                    }
-                </style>
                 <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                     <div class="timeline-img"></div>
                     <div class="timeline-content">
-                        <p editable="inline" class="lead">Step Date</p>
-                        <h2 editable="inline" class="fw-bold rfs-12">Step Name</h2>
-                        <div editable="rich">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam
-                                diam metus, lobortis non augue at, placerat viverra risus.</p>
-                        </div>
+                        <p editable="inline" class="lead">Software</p>
+                        <h2 editable="inline" class="fw-bold rfs-12">Java, Python</h2>
+
                     </div>
                 </div>
                 <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                     <div class="timeline-img"></div>
                     <div class="timeline-content">
-                        <p editable="inline" class="lead">Step Date</p>
-                        <h2 editable="inline" class="fw-bold rfs-12">Step Name</h2>
-                        <div editable="rich">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam
-                                diam metus, lobortis non augue at, placerat viverra risus.</p>
-                        </div>
+                        <p editable="inline" class="lead">Estilos</p>
+                        <h2 editable="inline" class="fw-bold rfs-12">HTML, CSS, BOOTSTRAP, TAILWIND, SASS</h2>
+
                     </div>
                 </div>
                 <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                     <div class="timeline-img"></div>
                     <div class="timeline-content">
-                        <p editable="inline" class="lead">Step Date</p>
-                        <h2 editable="inline" class="fw-bold rfs-12">Step Name</h2>
-                        <div editable="rich">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam
-                                diam metus, lobortis non augue at, placerat viverra risus.</p>
-                        </div>
+                        <p editable="inline" class="lead">Frontend</p>
+                        <h2 editable="inline" class="fw-bold rfs-12">JAVASCRIPT, REACT</h2>
+
                     </div>
                 </div>
                 <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
                     <div class="timeline-img"></div>
                     <div class="timeline-content">
-                        <p editable="inline" class="lead">Step Date</p>
-                        <h2 editable="inline" class="fw-bold rfs-12">Step Name</h2>
-                        <div editable="rich">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse a lacus est. Etiam
-                                diam metus, lobortis non augue at, placerat viverra risus.</p>
-                        </div>
+                        <p editable="inline" class="lead">Backend</p>
+                        <h2 editable="inline" class="fw-bold rfs-12">MYSQL, SQLSERVER, NODE.JS</h2>
+
+                    </div>
+                </div>
+                <div class="timeline-item w-100 mb-4 py-4 text-dark lc-block">
+                    <div class="timeline-img"></div>
+                    <div class="timeline-content">
+                        <p editable="inline" class="lead">Alojamiento</p>
+                        <h2 editable="inline" class="fw-bold rfs-12">GITHUB, NETLIFY</h2>
+
                     </div>
                 </div>
             </div>
         </section>
 
-        </section>
-        <!-- SECCION DE CONTACTO -->
-        <section>
-            <div class="container py-5 my-4 bg-light text-dark text-center">
-                <div class="row pt-4 mb-2">
-                    <div class="col-md-12">
-                        <div class="lc-block">
-                            <div editable="rich">
-                                <p class="h4 text-muted">Company Name</p>
-                            </div>
-                        </div><!-- /lc-block -->
 
-                    </div><!-- /col -->
-                </div>
+        <!-- SECCION DE CONTACTO -->
+        <section class="section-space" id="contacto">
+            <div class="container py-5 my-4 bg-light text-dark text-center">
+
                 <div class="row justify-content-center mb-4">
 
                     <div class="lc-block col-xl-8">
-                        <h1 editable="inline" class="display-2 fw-bold">Lorem <span class="text-danger">ipsum
-                                dolor</span> sit amet, consectetur adipiscing elit.</h1>
+                        <h1 editable="inline" class="display-2 fw-bold">Me <span class="text-danger">gustaría
+                                mucho</span> que me ayudaras a mejorar, por favor deja un mensaje.</h1>
                     </div><!-- /lc-block -->
 
                 </div>
                 <div class="row justify-content-center mb-4">
 
-                    <div class="lc-block col-xl-6 lh-lg">
-                        <div editable="rich">
-                            <p class="">&nbsp;Aliquam erat volutpat. In pellentesque scelerisque auctor. Ut porta lacus
-                                eget nisi fermentum lobortis. Vestibulum facilisis tempor
-                                ipsum, ut rhoncus magna ultricies laoreet. Proin vehicula erat eget libero accumsan
-                                iaculis.
-                            </p>
-                        </div>
-                    </div><!-- /lc-block -->
+
 
                 </div>
                 <div class="row pb-4">
                     <div class="col-md-12 d-">
                         <div class="lc-block d-grid gap-3 d-md-block">
-                            <a class="btn btn-lg btn-danger me-md-2" href="#" role="button">Read more</a>
-
-                            <a class="btn btn-lg btn-outline-secondary" href="#" role="button">Contact us</a>
+                            <a class="btn btn-lg btn-danger me-md-2" href="#" role="button">Contactame</a>
                         </div>
                     </div><!-- /col -->
                 </div>
@@ -521,7 +345,7 @@
     <!-- INICIO DEL FOOTER -->
     <footer>
 
-        <section>
+        <section class="section-space">
             <div class="container d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
                 <div class="col-md-4 d-flex align-items-center">
                     <div class="lc-block text-center mb-3 mb-md-0">
@@ -551,7 +375,7 @@
 
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
-                                viewBox="0 0 16 16" style="" lc-helper="svg-icon">
+                                viewBox="0 0 16 16" lc-helper="svg-icon">
                                 <path
                                     d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
                                 </path>
@@ -563,7 +387,7 @@
 
                         <a href="#">
                             <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" fill="currentColor"
-                                viewBox="0 0 16 16" style="" lc-helper="svg-icon">
+                                viewBox="0 0 16 16" lc-helper="svg-icon">
                                 <path
                                     d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z">
                                 </path>
