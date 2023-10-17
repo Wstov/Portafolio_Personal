@@ -1,0 +1,12 @@
+{
+  "name": "portafolio_personal",
+  "version": "1.0.0",
+  "description": "Proyecto final, Sitio Web de Portafolio Personal - Web app, backend API &amp; Mobile apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
