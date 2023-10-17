@@ -1,13 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/js/bootstrap.js">
+    <title>Gustavo Marín Developer</title>
 </head>
+
 <body>
-    <form action="">
-        
-    </form>
+
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg">
+                    <div class="card-body p-5">
+                        <!-- Título centrado -->
+                        <h2 class="card-title text-center ">¡Hola! Puedes dejar un mensaje en la caja de abajo. ¡Muchas
+                            gracias!</h2>
+
+                        <form class="espacio">
+                            <!-- Campo de Nombre -->
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre">
+                            </div>
+
+                            <!-- Campo de Correo -->
+                            <div class="form-group">
+                                <label for="correo">Correo</label>
+                                <input type="email" class="form-control" id="correo"
+                                    placeholder="Ejemplo: usuario@correo.com">
+                            </div>
+
+                            <!-- Campo de Teléfono -->
+                            <div class="form-group">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Ejemplo: 555-555-555">
+                            </div>
+
+                            <!-- Campo de Mensaje -->
+                            <div class="form-group">
+                                <label for="mensaje">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="4"
+                                    placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+
+                            <!-- Botón de Enviar -->
+                            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
+
 </html>
