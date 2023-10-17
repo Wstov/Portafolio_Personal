@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVBAR */
+.nav-bar{
+    position: fixed;
+}
+
+.nav-tittle{
+    text-transform: uppercase;
+    font-weight: bold;
+}
