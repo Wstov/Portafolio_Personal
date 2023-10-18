@@ -1,10 +1,10 @@
 // CARDS
-function initializeSwiperRANDOMID() {
+function initializeSwiperRANDOMID(){
     const swiper = new Swiper(".mySwiper-RANDOMID", {
         slidesPerView: 1,
         grabCursor: true,
         spaceBetween: 30,
-
+        
         pagination: {
             el: ".swiper-pagination",
             dynamicBullets: true,

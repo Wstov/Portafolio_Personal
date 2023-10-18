@@ -22,6 +22,9 @@
     margin-top: 140px;
 }
 
+.mySwiper-RANDOMID .card {
+    max-width: 21rem
+}
 
 /* SECTION 3 */
 .timeline:before {
@@ -126,7 +129,7 @@
 }
 
 /* FORMULARIO */
-.espacio{
+.espacio {
     margin-top: 2.5rem;
 }
 
